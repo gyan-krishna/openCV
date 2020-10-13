@@ -1,2 +1,2 @@
 # openCV
-Open cv python programs
+this rerository consists of Open cv python programs
