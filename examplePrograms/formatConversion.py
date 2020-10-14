@@ -6,11 +6,10 @@ Created on Wed Oct 14 23:12:26 2020
 Example program for conversion of image formats
 1. BGR      to  Gray
 2. gray     to  binary
-3. BGR      to  binary
-4. BGR      to  HSV
-5. HSV      to  BGR
-6. BGR      to  YCbCr
-7. YCbCr    to  BGR
+3. BGR      to  HSV
+4. HSV      to  BGR
+5. BGR      to  YCbCr
+6. YCbCr    to  BGR
 
 BGR     - Red Green Blue
 HSV     - Hue Saturation Value
