@@ -19,7 +19,7 @@ YCbCr   - Green (Y), Blue (Cb), Red (Cr)
 
 import cv2
 
-img = cv2.imread("mario.jpg")
+img = cv2.imread("images\mario_raw.jpg")
 
 # conversion from RGB to Gray Scale
 grayScale = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -50,6 +50,14 @@ cv2.imshow("HSV image           ", hsv)
 cv2.imshow("BGR from HSV image  ", rgb_from_hsv)
 cv2.imshow("YCbCr image         ", YCbCr)
 cv2.imshow("bgr from YCbCr image", rgb_from_ycbcr)
+
+cv2.imwrite(r"images\formatConversion\original imaage.jpg", img)
+cv2.imwrite(r"images\formatConversion\gray scale imaage.jpg", grayScale)
+cv2.imwrite(r"images\formatConversion\binary image.jpg", binary1)
+cv2.imwrite(r"images\formatConversion\HSV image.jpg", hsv)
+cv2.imwrite(r"images\formatConversion\BGR from HSV image.jpg", rgb_from_hsv)
+cv2.imwrite(r"images\formatConversion\YCbCr image.jpg", YCbCr)
+cv2.imwrite(r"images\formatConversion\bgr from YCbCr image.jpg", rgb_from_ycbcr)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
