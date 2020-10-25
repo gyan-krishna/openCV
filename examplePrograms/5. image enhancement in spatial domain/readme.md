@@ -18,8 +18,9 @@ the transformation function used in image negative is,
  Log transformation is done on gray scale image where, all pixels are replaced with log of 
  the pixel, this method is used to expand darker pixels of an image as compaired to higher
  pixel values.
- The formula for log conversion is:-
+ The formulas needed for log conversion is:-
  ### **const = 255 / log(max_input_pixel_value)**
+ The constant is chosen such that maximun voutput value corrosponding to the bit size used.
  ### **op_pixel = const * log(ip_pixel)**
  however pre-procressing should be done on the input image such that no pixel has 0 value,
  since log(0) = inf will result in a exception, simply replace all pixels with 0 value with 1
