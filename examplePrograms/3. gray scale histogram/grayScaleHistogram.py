@@ -10,10 +10,11 @@ Example to demonstrate histogram analysis on a gray scale image
 import cv2
 from matplotlib import pyplot as plt
 
-img = cv2.imread("mario.jpg", 0)
+img = cv2.imread("mario_raw.jpg", 0)
 
 hist_raw = cv2.calcHist(images=[img], channels=[0], mask=None, histSize=[256],
                         ranges=[0, 256])
+plt.plot(hist_raw)
 plt.show()
 
 cv2.imshow("image", img)
