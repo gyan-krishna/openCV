@@ -1,2 +1,2 @@
 # openCV
-this rerository consists of Open cv python programs
+this reprository consists of Open cv python programs
