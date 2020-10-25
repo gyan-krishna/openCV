@@ -6,4 +6,8 @@ Image negative is produced by subtracting each pixel from the maximum intensity 
 the transformation function used in image negative is,
 **s = T(r) = L – 1 – r**
 
-![raw image](minions_raw.jpg)  ![negative image](negativeImg.jpg)
+### Raw Image
+  <img src="minions_raw.jpg" width="400"> 
+### Negative Image
+  <img src="negativeImg.jpg" width="400">
+
