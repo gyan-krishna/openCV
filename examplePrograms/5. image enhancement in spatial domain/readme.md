@@ -44,13 +44,13 @@
   <img src="minions_raw.jpg" width="400"> 
   
   ### Gamma Image with gamma = 0.5
-  <img src="gamma transformation image - 0.5" width="400"> 
+  <img src="gamma transformation image - 0.5.jpg" width="400"> 
   
   ### Gamma Image with gamma = 1.5
-  <img src="gamma transformation image - 1.5" width="400"> 
+  <img src="gamma transformation image - 1.5.jpg" width="400"> 
   
   ### Gamma Image with gamma = 3.5
-  <img src="gamma transformation image - 3.5" width="400"> 
+  <img src="gamma transformation image - 3.5.jpg" width="400"> 
  
  --------------------------------------------------------------------------------------------
   
