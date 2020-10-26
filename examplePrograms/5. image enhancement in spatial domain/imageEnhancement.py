@@ -29,8 +29,8 @@ logImg = logImg.astype(np.uint8)
 ##############################################################################
 #power log transformation/gamma transformation
 
-gamma = 3.5
-gammaImg= np.array( 255*(img/255) ** gamma, dtype='uint8')
+gamma = 0.5
+gammaImg= np.array( 255*(gray/255) ** gamma, dtype='uint8')
 
 ##############################################################################
 
