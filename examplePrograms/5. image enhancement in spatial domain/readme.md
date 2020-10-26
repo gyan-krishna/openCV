@@ -31,3 +31,26 @@
  <img src="log transformation.jpg" width="400">
  
  --------------------------------------------------------------------------------------------
+# 3. Power Law/ Gamma Transformation:-
+  Gamma transformation is done on an image where, it is important for displaying images on a 
+  screen correctly, to prevent bleaching or darkening ofimages when viewed from diffent monitors
+  and display settings. it is done since our eyes perceive a gamma shaped curved instead of a 
+  linear curve. the formula for gamma transofrmation is:-
+  #### **opImg = const * ipImg ^ gammaConst**
+  
+  where, gamma constant is a constant used to specify the intensity of gamma correction.
+  
+  ### Raw Image
+  <img src="minions_raw.jpg" width="400"> 
+  
+  ### Gamma Image with gamma = 0.5
+  <img src="gamma transformation image - 0.5" width="400"> 
+  
+  ### Gamma Image with gamma = 1.5
+  <img src="gamma transformation image - 1.5" width="400"> 
+  
+  ### Gamma Image with gamma = 3.5
+  <img src="gamma transformation image - 3.5" width="400"> 
+ 
+ --------------------------------------------------------------------------------------------
+  
