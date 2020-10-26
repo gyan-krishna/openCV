@@ -53,4 +53,22 @@
   <img src="gamma transformation image - 3.5.jpg" width="400"> 
  
  --------------------------------------------------------------------------------------------
-  
+  # 4.Piecewise-Linear Transformation:-
+    this function is basically, linear functions between certain x intervals. it is commonly
+    used in contrast stretching. contrast stretching is is used to stretch the range of intensity 
+    values to a desired range of values. contrast can be calcutaed by, the formula,
+    
+    #### contrast = (Imax - Imin)/(Imax + Imin)
+    
+    with the (r1,s1) and (r2,s2) is used to stretch the intensity levels, resulting in decreasing
+    intensity of dark pixels and increasing intensity of bright pixels. 
+   
+     <img src="contrast_stretching_graph.png" width="400">
+     the dotted line represents the original unaltered image
+     
+     
+     
+     
+     
+    
+    
