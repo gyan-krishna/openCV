@@ -31,6 +31,8 @@ plots[1].plot(hist_eq)
 plots[1].set_title('equilised image hist')
 plt.plot()
 
+cv2.imwrite("rawImage.jpg",img)
+cv2.imwrite("equalisedImg.jpg",eq)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
