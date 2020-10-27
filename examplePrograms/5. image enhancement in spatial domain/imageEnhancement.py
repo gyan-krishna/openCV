@@ -62,6 +62,7 @@ cv2.imshow("piece wise linear transformation", contrastStretched)
 cv2.imwrite("negativeImg.jpg", neg)
 cv2.imwrite("log transformation.jpg", logImg)
 cv2.imwrite("gamma transformation image - "+str(gamma)+".jpg", gammaImg)
+cv2.imwrite("piece wise linear transformation.jpg", contrastStretched)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
