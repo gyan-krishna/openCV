@@ -7,12 +7,12 @@ this metod can be used to better visualise bone structures from x ray images, th
 images etc.
 -----------------------------------------------------------------------------------------------------
   ### Raw Image
-  <img src="equalisedImg.jpg" width="400"> 
+   <img src="rawImage.jpg" width="400">
   
-  ### histogram equalised images
-  <img src="rawImage.jpg" width="400">
+  ### Histogram Equalised Images
+   <img src="equalisedImg.jpg" width="400"> 
   
-  ### histogram
+  ### Histogram
   <img src="histogram.png" width="400"> 
   
 -----------------------------------------------------------------------------------------------------
