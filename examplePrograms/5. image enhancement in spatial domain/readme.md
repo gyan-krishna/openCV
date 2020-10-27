@@ -66,9 +66,11 @@
   <img src="contrast_stretching_graph.png" width="400">
   the dotted line represents the original unaltered image
      
-     
-     
-     
+   ### Raw Image
+  <img src="agrea.jpg" width="400"> 
+  
+  ### piece wise linear transformation 
+  <img src= "piece wise linear transformation.jpg" width="400">    
      
     
     
