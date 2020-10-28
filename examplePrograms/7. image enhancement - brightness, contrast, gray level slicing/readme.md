@@ -1,9 +1,9 @@
 # Demonstration of image brightness, contrast, gray level slicing manipulation techniques
 
 ## Image Brightness Manipulation:-
-  Image brightness is the general measure of pixel intensity of a image. Image brightness 
-  can be enhanced by adding a constant value to each pixel of the image,and can be supressed 
-  by substracting a constant from each pixel of the image.
+    Image brightness is the general measure of pixel intensity of a image. Image brightness 
+    can be enhanced by adding a constant value to each pixel of the image,and can be supressed 
+    by substracting a constant from each pixel of the image.
   
   ### Raw image:-
   <img src="agerabw.jpg" width="400">
@@ -23,7 +23,7 @@
     contrastFactor - 
           if lies between 0 and 1 - will result in contrast supression
           if lies above 1         - will result in contrast enhancement
-  ###contrastmanipulation.py
+  ### contrastmanipulation.py
   ### Raw image:-
   <img src="agerabw.jpg" width="400">
     
