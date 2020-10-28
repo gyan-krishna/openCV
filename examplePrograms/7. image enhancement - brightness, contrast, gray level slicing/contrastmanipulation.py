@@ -16,7 +16,6 @@ const = 0.5
 
 cv2.imshow("raw image",img)
 
-
 for i in range(img.shape[0]):
     for j in range(img.shape[1]):
         img[i][j] = np.uint8(img[i][j] * const)
