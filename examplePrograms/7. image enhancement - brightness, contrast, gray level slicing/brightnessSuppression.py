@@ -20,6 +20,7 @@ for i in range(img.shape[0]):
             img[i][j] -= const
 
 cv2.imshow("enhancement image",img)
+cv2.imwrite("brightness supression image.jpg",img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()

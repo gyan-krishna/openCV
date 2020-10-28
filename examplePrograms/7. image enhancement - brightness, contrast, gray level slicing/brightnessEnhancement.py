@@ -20,6 +20,7 @@ for i in range(img.shape[0]):
 
 
 cv2.imshow("enhancement image",img)
+cv2.imwrite("brightness enhancement image.jpg",img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
