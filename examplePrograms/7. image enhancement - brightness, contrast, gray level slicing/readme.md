@@ -9,11 +9,11 @@
   <img src="agreabw.jpg" width="400">
     
   ### Brightness Enhanced Image (const - 50):-
-  #### brightnessEnhancement.py
+  #### [brightnessEnhancement.py](https://github.com/gyan-krishna/openCV/blob/main/examplePrograms/7.%20image%20enhancement%20-%20brightness%2C%20contrast%2C%20gray%20level%20slicing/brightnessEnhancement.py)
   <img src="brightness enhancement image.jpg" width="400"> 
   
   ### Brightness Supressed Image (const - 50):-
-  #### brightnessEnhancement.py
+  #### [brightnessEnhancement.py](https://github.com/gyan-krishna/openCV/blob/main/examplePrograms/7.%20image%20enhancement%20-%20brightness%2C%20contrast%2C%20gray%20level%20slicing/brightnessSuppression.py)
   <img src="brightness supression image.jpg" width="400"> 
  
 ## Image Contrast Manipulation:-
@@ -23,7 +23,7 @@
     contrastFactor - 
           if lies between 0 and 1 - will result in contrast supression
           if lies above 1         - will result in contrast enhancement
-  ### contrastmanipulation.py
+  #### [contrastmanipulation.py](https://github.com/gyan-krishna/openCV/blob/main/examplePrograms/7.%20image%20enhancement%20-%20brightness%2C%20contrast%2C%20gray%20level%20slicing/contrastmanipulation.py)
   ### Raw image:-
   <img src="agreabw.jpg" width="400">
     
