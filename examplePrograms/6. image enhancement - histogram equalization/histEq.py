@@ -2,7 +2,7 @@
 """
 Created on Tue Oct 27 11:46:01 2020
 
-@author: ASUS
+@author: Gyan Krishna
 """
 
 import cv2

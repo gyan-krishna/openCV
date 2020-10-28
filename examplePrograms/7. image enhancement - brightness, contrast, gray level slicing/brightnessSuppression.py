@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 27 15:08:43 2020
+Created on Wed Oct 28 18:57:38 2020
 
 @author: Gyan Krishna
 """
@@ -11,13 +11,13 @@ img = cv2.imread("agrea.jpg",0)
 const = 50
 
 cv2.imshow("raw image",img)
+
 for i in range(img.shape[0]):
     for j in range(img.shape[1]):
-        if(img[i][j] + const > 255):
-            img[i][j] = 255
+        if(img[i][j] - const < 0):
+            img[i][j] = 0
         else:
-            img[i][j] += const
-
+            img[i][j] -= const
 
 cv2.imshow("enhancement image",img)
 
