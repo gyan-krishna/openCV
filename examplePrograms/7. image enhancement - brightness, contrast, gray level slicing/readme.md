@@ -6,7 +6,7 @@
     by substracting a constant from each pixel of the image.
   
   ### Raw image:-
-  <img src="agerabw.jpg" width="400">
+  <img src="agreabw.jpg" width="400">
     
   ### Brightness Enhanced Image (const - 50):-
   #### brightnessEnhancement.py
@@ -25,7 +25,7 @@
           if lies above 1         - will result in contrast enhancement
   ### contrastmanipulation.py
   ### Raw image:-
-  <img src="agerabw.jpg" width="400">
+  <img src="agreabw.jpg" width="400">
     
   ### Contrast Enhanced Image (const - 1.2):-
   <img src="contrasted image (1.2).jpg" width="400"> 
