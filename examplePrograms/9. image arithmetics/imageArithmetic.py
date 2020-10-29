@@ -24,11 +24,10 @@ img2 = cv2.resize(img2, (y,x))
 
 rocketRes = cv2.resize(rocket, (nebula.shape[1], nebula.shape[0]))
 
-mul = cv2.multiply(img1,img2)
 sum = cv2.addWeighted(rocketRes,0.8,nebula,0.3,0)
 diff = cv2.subtract(img2, img1)
 
-cv2.imshow("sum",mul)
+cv2.imshow("sum",sum)
 cv2.imshow("img 1",img1)
 cv2.imshow("img 2",img2)
 

@@ -28,6 +28,7 @@ cv2.imshow("nebula",nebula)
 cv2.imshow("rocket",rocketRes)
 cv2.imshow("merge",merge)
 
+cv2.imwrite("merge.jpg",merge)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
