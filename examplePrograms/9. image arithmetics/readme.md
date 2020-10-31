@@ -22,7 +22,7 @@ It can be done in two methods:-<br/>
 <img src="rocket.jpg" width=400>
 
 #### Weighted Addition Results:-
-<img src="weightedSum.jpg" width=400>
+<img src="WeightedSum.jpg" width=400>
 
 #### Non Weighted Addition Results:-
 <img src="NonWeightedSum.jpg" width=400>
