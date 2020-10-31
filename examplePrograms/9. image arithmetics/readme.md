@@ -35,10 +35,10 @@ It can be done in two methods:-<br/>
 **OPImage = cv2.addWeighted(img1, weight1, img2, weight2, gamma)**
 
 #### Image One:-
-<img src="img 1.jpg" width=400>
+<img src="Snapshot_1.png" width=400>
 
 #### Image Two:-
-<img src="img 2.jpg" width=400>
+<img src="Snapshot_2.png" width=400>
 
 #### Substraction Results:-
 <img src="differrence.jpg" width=400>
