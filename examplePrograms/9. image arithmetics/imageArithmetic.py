@@ -37,6 +37,7 @@ cv2.imshow("diff",diff)
 
 cv2.imwrite("WeightedSum.jpg",weightedSum)
 cv2.imwrite("NonWeightedSum.jpg",sum)
+cv2.imwrite("differrence.jpg",diff)
 
 
 cv2.waitKey(0)
