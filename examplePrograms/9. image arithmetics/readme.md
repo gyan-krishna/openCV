@@ -26,3 +26,19 @@ It can be done in two methods:-<br/>
 
 #### Non Weighted Addition Results:-
 <img src="NonWeightedSum.jpg" width=400>
+
+## Image Substraction:-
+	image substraction is the procress of substracting each pixel of one image to the
+	corrosponding pixel of another image. It is commonly used to compare two images.
+
+	Python code to perform weighted addition:- <br/>
+**OPImage = cv2.addWeighted(img1, weight1, img2, weight2, gamma)**
+
+#### Image One:-
+<img src="img 1.jpg" width=400>
+
+#### Image Two:-
+<img src="img 2.jpg" width=400>
+
+#### Substraction Results:-
+<img src="differrence.jpg" width=400>
