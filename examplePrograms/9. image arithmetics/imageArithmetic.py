@@ -24,14 +24,20 @@ img2 = cv2.resize(img2, (y,x))
 
 rocketRes = cv2.resize(rocket, (nebula.shape[1], nebula.shape[0]))
 
-sum = cv2.addWeighted(rocketRes,0.8,nebula,0.3,0)
+sum = cv2.add(rocketRes, nebula)
+weightedSum = cv2.addWeighted(rocketRes,0.8,nebula,0.3,0)
 diff = cv2.subtract(img2, img1)
 
+cv2.imshow("weighted sum",weightedSum)
 cv2.imshow("sum",sum)
 cv2.imshow("img 1",img1)
 cv2.imshow("img 2",img2)
 
 cv2.imshow("diff",diff)
+
+cv2.imwrite("weightedSum.jpg",weightedSum)
+cv2.imwrite("NonWeightedSum.jpg",sum)
+cv2.imwrite("weightedSum.jpg",sum)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
