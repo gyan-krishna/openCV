@@ -37,7 +37,7 @@ cv2.imshow("diff",diff)
 
 cv2.imwrite("weightedSum.jpg",weightedSum)
 cv2.imwrite("NonWeightedSum.jpg",sum)
-cv2.imwrite("weightedSum.jpg",sum)
+cv2.imwrite("weightedSum.jpg",weightedSum)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
