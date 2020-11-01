@@ -2,7 +2,7 @@
 """
 Created on Sat Oct 31 21:08:16 2020
 
-@author: ASUS
+@author: Gyan Krishna
 """
 import cv2
 import random
@@ -24,7 +24,7 @@ def spNoise(img, prob):
     return sp
 
 img = cv2.imread("thanos.jpg")
-saltAndPepper = spNoise(img, 0.0006)
+saltAndPepper = spNoise(img, 0.001)
 gauss = cv2.GaussianBlur(img, (5,5), 10)
 
 cv2.imshow("thanos original", img)
