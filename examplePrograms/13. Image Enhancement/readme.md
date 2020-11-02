@@ -23,7 +23,7 @@ in a rectangular area of m * n, and the center point of Sxy is the point(x,y)
 the min filter calculates the min pixel value of the currupted area, i.e. Sxy 
 and place the min value at the center point (x,y). <br />
 
-## 3. Max Filtering:- <br/>
+## 4. Max Filtering:- <br/>
 Arithmetic median is a box filter where, if Sxy represents the set of pixels 
 in a rectangular area of m * n, and the center point of Sxy is the point(x,y) 
 the Max filter calculates the min pixel value of the currupted area, i.e. Sxy 
