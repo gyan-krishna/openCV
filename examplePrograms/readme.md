@@ -1,4 +1,4 @@
-# Open CV Sample Programs
+# Open CV Sample Programs in python
 
 1. **formatConversion.py** - changing format of image.
 2. **rotateImage.py** - Rotating an image.
