@@ -20,9 +20,9 @@
 
 #### Original File </br>
 
-<img src="qrcode.png" width="400"> </br>
+<img src="qrcode.jpg" width="400"> </br>
 
 #### Output </br>
 
-<img src="qrcodeOP.jpg" width="400"> </br>
+<img src="qrcodeOP.png" width="400"> </br>
 
