@@ -6,14 +6,23 @@
 
 ## Outputs:-
 
-### barcode Test
-#### Original File
-<img src="barcode.jpg" width="400">
-#### Output
-<img src="barcodeOP.jpg" width="400">
+###barcode Test
 
-##QR code test:-
-#### Original File
-<img src="qrcode.png" width="400">
-#### Output
-<img src="qrcodeOP.jpg" width="400">
+####Original File
+
+<img src="barcode.jpg" width="400"> </br>
+
+#### Output </br>
+
+<img src="barcodeOP.jpg" width="400"> </br>
+
+## QR code test:- </br>
+
+#### Original File </br>
+
+<img src="qrcode.png" width="400"> </br>
+
+#### Output </br>
+
+<img src="qrcodeOP.jpg" width="400"> </br>
+
