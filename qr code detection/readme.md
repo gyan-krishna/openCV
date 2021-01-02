@@ -7,9 +7,13 @@
 ## Outputs:-
 
 ### barcode Test
-<img src="barcodeOP.jpg" width="400">
+#### Original File
+<img src="barcode.jpg" width="400">
+#### Output
 <img src="barcodeOP.jpg" width="400">
 
 ##QR code test:-
-<img src="qrcodeOP.jpg" width="400">
+#### Original File
 <img src="qrcode.png" width="400">
+#### Output
+<img src="qrcodeOP.jpg" width="400">
