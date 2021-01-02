@@ -6,9 +6,9 @@
 
 ## Outputs:-
 
-###barcode Test
+### Barcode Test
 
-####Original File
+#### Original File
 
 <img src="barcode.jpg" width="400"> </br>
 
