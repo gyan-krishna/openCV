@@ -17,7 +17,7 @@ sub = cv2.subtract(img2, img1);
 cv2.imshow("image 1", img1)
 cv2.imshow("image 2", img2)
 cv2.imshow("comparision img", sub)
-
+cv2.imwrite("result.png", sub)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
