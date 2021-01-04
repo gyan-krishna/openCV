@@ -10,5 +10,5 @@ weight denotes the prominance of the image in the merged image
 <img src = "mickey.jpg" width="400"> </br>
 ## Image 2: </br>
 <img src = "background.jpg" width="400"> </br>
-## Substracted Image: </br>
+## merged Image: </br>
 <img src = "merge.jpg" width="400"> </br>
