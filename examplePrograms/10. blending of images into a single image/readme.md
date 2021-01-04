@@ -7,8 +7,8 @@ in this function each image has a weight of 0-1 associated with it, and the
 weight denotes the prominance of the image in the merged image
 
 ## Image 1: </br>
-<img src = "img1.png" width="400"> </br>
+<img src = "mickey.jpg" width="400"> </br>
 ## Image 2: </br>
-<img src = "img2.png" width="400"> </br>
+<img src = "background.jpg" width="400"> </br>
 ## Substracted Image: </br>
-<img src = "result.png" width="400"> </br>
+<img src = "merge.jpg" width="400"> </br>

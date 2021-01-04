@@ -24,6 +24,7 @@ cv2.imshow("mickey",mickey)
 cv2.imshow("background", background)
 cv2.imshow("merge", merge)
 
+cv2.imwrite("merge.jpg", merge)
 
 cv2.waitKey(0);
 cv2.destroyAllWindows()
