@@ -65,6 +65,8 @@ while(vid.isOpened()):
     cv2.imshow("video", final)
     cv2.imshow("video original", frame)
     cv2.imshow("hsv video", hsv)
+    cv2.imshow("gray scale", gray)
+    cv2.imshow("binary scale", binary)
     if(cv2.waitKey(30) & 0xFF == ord('q')):
         break
 
