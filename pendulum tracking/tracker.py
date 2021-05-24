@@ -30,6 +30,7 @@ while(vid.isOpened()):
 
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     sat = np.array(hsv[:,:,1])
+    cv2.imshow("saturation", sat)
     ret, binary =  cv2.threshold(sat, 125, 255, cv2.THRESH_BINARY)
 
     gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)

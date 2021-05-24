@@ -12,11 +12,15 @@ import cv2
 
 img = cv2.imread("mario_raw.jpg")
 
-blue = img[:, :, 0]
-green = img[:, :, 1]
-red = img[:, :, 2]
+#BGR
+blue    = img[:, :, 0]
+green   = img[:, :, 1]
+red     = img[:, :, 2]
 
+print(img.shape)
+print(blue)
 cv2.imshow("original image", img)
+
 cv2.imshow("blue channel", blue)
 cv2.imshow("green channel", green)
 cv2.imshow("red channel", red)
