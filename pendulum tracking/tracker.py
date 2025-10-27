@@ -30,14 +30,14 @@ while(vid.isOpened()):
 
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     sat = np.array(hsv[:,:,1])
-    cv2.imshow("saturation", sat)
+    #cv2.imshow("saturation", sat)
     ret, binary =  cv2.threshold(sat, 125, 255, cv2.THRESH_BINARY)
 
     gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
     final = cv2.bitwise_and(binary, gray, None)
 
     rows = final.shape[0]
-    circles = cv2.HoughCircles(final, cv2.HOUGH_GRADIENT, 1, rows / 8,
+    circles = cv2.HoughCircles(final, cv2.HOUGH_GRADIENT, 1, rows/8,
                                param1=50, param2=25,
                                minRadius=1, maxRadius=100)
 
@@ -63,11 +63,11 @@ while(vid.isOpened()):
                 cv2.circle(frame, center, radius, (0, 255, 0), 2)
                 frame = cv2.line(frame, (mid,0), center, (0,0,255), 2)
 
-    cv2.imshow("video", final)
+    #cv2.imshow("video", final)
     cv2.imshow("video original", frame)
-    cv2.imshow("hsv video", hsv)
-    cv2.imshow("gray scale", gray)
-    cv2.imshow("binary scale", binary)
+    #cv2.imshow("hsv video", hsv)
+    #cv2.imshow("gray scale", gray)
+    #cv2.imshow("binary scale", binary)
     if(cv2.waitKey(30) & 0xFF == ord('q')):
         break
 

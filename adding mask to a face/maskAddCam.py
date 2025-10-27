@@ -23,34 +23,37 @@ while(True):
     faces = det(raw)
     for face in faces:
         x1 = face.left()
-        y1 = face.top()      
+        y1 = face.top()
         x2 = face.right()
         y2 = face.bottom()
 
         landmarks = pred(raw, face)
-        
-        yl1 = landmarks.part(28).y
-        yl2 = landmarks.part(9).y
-        
+
+        yl1 = landmarks.part(27).y
+        yl2 = landmarks.part(8).y
+
         dy = yl2 - yl1
-        
-        roi = raw[y1:y2, x1:x2]   
+
+        roi = raw[y1:y2, x1:x2] #region of intrest
+
         mask2 = cv2.resize(mask, (roi.shape[1],dy))
-    
-        xlen = mask2.shape[0]
-        ylen = mask2.shape[1]
-    
+
+        cv2.imshow("mask", mask2)
+        cv2.imshow("roi", roi)
+        ylen = mask2.shape[0]
+        xlen = mask2.shape[1]
+
         ydiff = yl1 - y1
-        
-        for i in range(xlen):
-            for j in range(ylen):
+
+        for i in range(ylen):
+            for j in range(xlen):
                 for k in range(3):
                     if(mask2[i][j][k] != 0):
                         raw[i+y1+ydiff][j+x1][k] = mask2[i][j][k]
-        
+
     cv2.imshow("raw",raw)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) == 27:
         break
-    
+
 cap.release()
 cv2.destroyAllWindows()
